@@ -1,0 +1,262 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4CAF50; /* Cambiado de negro a verde */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Mantiene sombra */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fff; /* Cambiado de beige a blanco */
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ff4c4c; /* Cambiado de amarillo a rojo */
+    text-decoration: none;
+}
+
+.logo {
+    padding: 0 15px;
+}
+
+.logo img {
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #fff; /* Cambiado de gris a blanco */
+    font-size: 18px;
+}
+
+.iconos a:hover {
+    color: #ff4c4c; /* Cambiado de gris claro a rojo */
+}
+
+/* Estilos para la sección uno */
+
+.principal {
+    background-image: url('../imagen/publicidad.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2); /* Mantiene fondo transparente */
+}
+
+.contenidouno h1 {
+    margin-top: 200px;
+    margin-bottom: 15px;
+}
+
+.contenidouno h2 {
+    margin-bottom: 15px;
+}
+
+.contenidouno p {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #4CAF50; /* Cambiado de negro a verde */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.button:hover {
+    background-color: #ff4c4c; /* Cambiado de beige a rojo */
+    color: white;
+}
+
+/* Estilos para el contenido dos */
+
+.banner {
+    background-image: url('../imagen/gatorade.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8); /* Mantiene fondo oscuro */
+}
+
+.contenidodos h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* Estilos para la galería */
+
+.galeria {
+    background-color: #4CAF50; /* Cambiado de gris a verde */
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff4c4c; /* Cambiado de azul a rojo */
+}
+
+.galeria p {
+    color: #535656; /* Mantiene el gris del texto */
+    text-align: center;
+    font-size: 14px;
+    line-height: 5px;
+    margin-bottom: 10px;
+}
+
+.contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff4c4c; /* Cambiado de azul a rojo */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #4CAF50; /* Cambiado de verde más suave */
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contenidotres .columna a:hover {
+    background-color: #ff4c4c; /* Cambiado de azul a rojo */
+}
+
+/* Estilos para el Footer */
+
+.footer {
+    background-color: #4CAF50; /* Cambiado de negro a verde */
+    color: #fff;
+    padding: 20px;
+}
+
+.filas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h3, p {
+    color: #fff;
+    margin: 0;
+}
+
+.social-icons1 {
+    display: flex;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff4c4c; /* Cambiado de azul a rojo */
+}
+
+  
+
+  
